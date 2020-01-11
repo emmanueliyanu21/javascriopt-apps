@@ -1,0 +1,68 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'SF Mono', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none !important;
+  color: #eeb83b;
+  
+}
+
+.bk-img {
+    background-image: url(./img/bg-main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pad-text h2 {
+  font-size: 24px!important;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.x1 {
+  margin: auto;
+  max-width: 60%;
+}
+
+.pad-text p{
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.form-control {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.btn-search {
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 15px 35px!important;
+}

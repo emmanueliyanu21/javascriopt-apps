@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pop-up chat window</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class="container">
+        <h2>Pop-up chat window</h2>
+        <button class="open-button" onclick="openform()">Chat</button>
+
+        <div class="chat-popup" id="myform">
+            <form action="" id="myForm" class="form-container">
+                <h1>Chat</h1>
+                <label for="msg"><b>Message</b></label>
+                <textarea name="msg" placeholder="Type a message here..." required id="message1" cols="40"
+                    rows="10"></textarea>
+                <button type="submit" class="btn">Send</button>
+                <button type="submit" class="btn">Cancel</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
+
+<!-- when you add the message, add it to a message list or an alert pop-up with the message -->
