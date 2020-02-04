@@ -102,6 +102,18 @@ function validateForm(siteName, siteUrl) {
     return false;
   }
 
+  //   // // understanding Logical AND operator
+  //   // true && true;  // true
+  //   // true && false; // false
+  //   // false && true;  // false
+  //   // false && false; // false
+
+  //   // // Logical OR operator
+  //   // true || true;  // true
+  //   // true || false; // true
+  //   // false || true;  // true
+  //   // false || false; // false
+
   var expression = /[-a-zA-Z0-9@:%_\+.~#?&//=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?/gi;
   var regex = new RegExp(expression);
 
